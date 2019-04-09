@@ -1,0 +1,53 @@
+                                                                                     www.it-ebooks.info
+                                          
+
+                                         vi and Vim Editors Pocket
+                                                         Reference
+
+
+
+
+
+lntroduction
+
+This pocket reference is a companion to Learning the vi and Vim Editors, by Arnold Robbins et al. lt describes the vi com-mand-line options, command-mode commands, ex com-mands and options, regular expressions and the use of the substitute (s) command, and other pertinent information for using vi.
+
+While retaining coverage of the vi clines, nvi, elvis, and vile, this edition offers expanded coverage of the Vim editor, which has become the de facto standard version of vi in the GNU/Linux world.
+
+The Solaris version of vi served as the "reference" version of the original vi for this pocket reference
+
+Conventions
+
+The following font conventions are used in this book:
+
+Courier
+    Used for filenames, command names, option,and every-thing to be typed literally.
+Courier ltalic
+    Used for replaceable text within commands.
+ltalic 
+      Used for replaceable text sithin regular text, lnternet
+      URLs,for emphasis,and for new terms when first defined.
+[...]
+    ldentifies optional text; the brackets are not typed.
+CTRL-G
+   lndicates a keystroke.
+
+Acknowledgments
+
+Thanks to Robert P.J.Day and Elbert Hannah, who reviewed this edition. The production team at O'Reilly Media did a great job helping me make the book look the way l wanted. A special thanks to my editor,Andy Oram,for keeping the project mov-ing with continual gentle encouragement.
+
+
+Command-Line Options
+
+command 
+vi file          lnvoke vi on file
+vi file file2    lnvoke vi on files sequentially
+view file        lnvoke vi on file in read-only mode
+vi-R file        lnvoke vi on file in read-only mode
+vi-r file        Recover file and recent edits after a crash
+vi-t tag         Look uo tag and start editing at its definition
+vi-w n           set the window size to n; usefuk over a slow connection
+vi+file          Open file at last line
+vi+n file        Open file direcly at line number n
+
+
